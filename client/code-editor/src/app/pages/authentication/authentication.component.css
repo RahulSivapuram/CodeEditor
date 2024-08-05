@@ -1,0 +1,48 @@
+.auth-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+}
+
+.outlet {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  flex-direction: column;
+  width: 40%;
+}
+
+mat-form-field {
+  width: 100%;
+}
+mat-card-header {
+  justify-content: center;
+}
+
+.content {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.login-button,
+.register-button {
+  width: 8rem;
+  height: 2rem;
+  border-radius: 1rem;
+  border: none;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.login-button {
+  background-color: orangered;
+}
+
+.register-button {
+  background-color: rgb(255, 217, 0);
+}

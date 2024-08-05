@@ -1,0 +1,16 @@
+<div class="rtc">
+    <div class="videos-space">
+        <video class="video-player" id="localVideo" autoplay></video>
+        <video class="video-player" id="remoteVideo" autoplay></video>
+    </div>
+
+    <button id="end-call-btn" class="disconnect-button" (click)="handleEndCallBtnClick($event)">
+        <img src="/phone-disconnect.png" alt="disconnect-call">
+    </button>
+
+    <div class="users-in-room">
+        <span>Users in Room</span>
+        <ul id="allusers">
+        </ul>
+    </div>
+</div>
